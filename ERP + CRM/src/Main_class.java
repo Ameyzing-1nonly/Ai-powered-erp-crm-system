@@ -543,8 +543,8 @@ public class Main_class extends JFrame implements ActionListener {
         // Add click handler for settings
         button.addActionListener(e -> {
             // Settings functionality
-            JOptionPane.showMessageDialog(this, "Settings panel will be implemented", 
-                                        "Settings", JOptionPane.INFORMATION_MESSAGE);
+            new Settings();
+            setVisible(false);
         });
         
         return button;
